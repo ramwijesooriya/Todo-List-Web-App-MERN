@@ -34,7 +34,7 @@ const handleDelete=(id)=>{
       <br />
       {todos.length === 0 ? (
         <div>
-          <h2 className="a">No Record</h2>
+          <h2 className="a">No Records</h2>
         </div>
       ) : (
         todos.map(todo =>(
